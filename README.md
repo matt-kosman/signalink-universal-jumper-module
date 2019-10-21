@@ -35,11 +35,11 @@ Component values can also be adjusted to accommodate a particular radio or in ge
 ## SignaLink Interface
 Inside the enclosure, an 8x2 rounded pin DIP socket sits between the SignaLink circuitry and the RJ-45 external connector. 
 
-<p align="center"><img height="200" src="images/img_signalink-open.jpg"></br><b>SignaLink PCB Showing JP1 Socket for Universal Jumper</b></p>
+<p align="center"><img height="300" src="images/img_signalink-open.jpg"></br><b>SignaLink PCB Showing JP1 Socket for Universal Jumper</b></p>
 
 The socket can be used with off-the-shelf jumper modules or hand wired by the end user. The Universal Jumper will also fit into this socket, using standard 0.1-inch pitch rounded pins, with the two rows separated by 0.3 inches. 
 
-<p align="center"><img height="300" src="kicad/images/img_sl-interface.png"></br><b>SignaLink Interface and Passthrough</b></p>
+<p align="center"><img height="200" src="kicad/images/img_sl-interface.png"></br><b>SignaLink Interface and Passthrough</b></p>
 
 The universal jumper passes all signals - SPK, MIC, and PTT - through to the RJ45 in addition to routing them to the HT interface circuit. The universal jumper also passes through PWR to support the legacy SignaLink SL-1+ (non-USB). 
 
